@@ -25,6 +25,8 @@ public class Online_Shop {
     public void seeAllProductsFromCurrentOrder_UsingIncrementation(){
         for(int order = 0; order < orders.size(); order++){
             orders.get(order).seeAllProducts();
+
+
         }
     }
 
